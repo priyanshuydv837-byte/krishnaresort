@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <section id="booking" class="booking">
+    <div class="section-title">
+        <h2>Book Your Stay</h2>
+        <div class="line"></div>
+    </div>
+    <form class="booking-form">
+        <div class="form-group">
+            <label>Full Name</label>
+            <input id="name bookingUserName"  type="text" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label>Email Address</label>
+            <input id="email bookingUserEmail" type="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label>Check-In Date</label>
+            <input id="date bookingUserDate" type="date" required>
+        </div>
+        <div class="form-group">
+            <label>Room Type</label>
+            <select>
+                <option>Standard Single</option>
+                <option>Deluxe Double</option>
+                <option>Executive Suite</option>
+            </select>
+        </div>
+        <button type="submit" class="form-btn formSubmitBtn">Confirm Booking</button>
+    </form>
+</section>
+
+</body>
+</html>
